@@ -1,0 +1,18 @@
+.header-conteiner { 
+    background-color: rgba(9, 65, 116, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chat-btn { 
+    background: none;
+    border: 1px solid gray;
+    border-radius: 31px;
+    width: 40px;
+    height: 40px;
+}
+
+.arrow { 
+    border: 0;
+}

@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: #f0f0f0;
+  margin: 0;
+}
+
+#root {
+  width: 393px;
+  min-height: 100vh;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-content { 
+  flex: 1;
+}
+
+.nav { 
+  position: sticky;
+  width: 360px;
+  height: 69px;
+  padding: 15px;
+  border-radius: 50px;
+  display: flex;
+  gap: 29.33px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.nav-img { 
+  width: 20px;
+  height: 20px;
+  margin-left: 1px;
+}
