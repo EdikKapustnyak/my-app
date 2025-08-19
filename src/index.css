@@ -23,8 +23,8 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 393px;
   min-height: 100vh;
-  height: 2622px;
-  width: 1206px;
+  height: 852px;
+  width: 100%;
 }
