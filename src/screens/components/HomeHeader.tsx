@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../styles/Header.css";
+import "../styles/HomeHeader.css";
 import chatIcon from "../img/icons/chat.svg";
 import bellIcon from "../img/icons/bell.svg";
 
@@ -10,7 +10,7 @@ interface HeaderProps {
   };
 }
 
-export default function Header({ user }: HeaderProps) {
+export default function HomeHeader({ user }: HeaderProps) {
   const navigate = useNavigate()
   return (
     <header className="header">

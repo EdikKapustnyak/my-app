@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "../styles/ChatDisplay.css";
 import botAvatar from "../img/chat-robot.png";
 import arrowNext from "../img/icons/arrow.svg"
+import blueArrow from "../img/icons/blue-arrow.svg"
 
 type Message = {
   sender: "user" | "bot";
@@ -65,11 +66,11 @@ export default function ChatDisplay() {
         <div className="buttons">
           <button onClick={() => handleUserChoice("buy")} className="buy-btn">
             Хочу купити код доступу
-            <img src={arrowNext} alt="Дальше" />
+            <img src={arrowNext} alt="Дальше" className="icon"/>
           </button>
           <button onClick={() => handleUserChoice("admin")} className="admin-btn">
             Мені потрібен адмін
-            <img src={arrowNext} alt="Дальше" color="rgba(29, 85, 136, 1)"/>
+            <img src={blueArrow} alt="Дальше" />
           </button>
         </div>
       </div>

@@ -1,11 +1,11 @@
-import Header from "./components/Header";
+import HomeHeader from "./components/HomeHeader";
 import './styles/HomeScreen.css'
 
 export default function Home() {
   return (
     <div className="home-container">
       {/* Синий блок приветствия (только для авторизованных) */}
-      <Header user= {{name: " Andriy", surname: " Luzhko"}}></Header>
+      <HomeHeader user= {{name: " Andriy", surname: " Luzhko"}}></HomeHeader>
 
       {/* Основной контент страницы */}
      

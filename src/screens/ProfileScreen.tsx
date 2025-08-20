@@ -1,5 +1,7 @@
-
+import ProfileInfo from "./components/ProfileInfo"
 
 export default function Profile() {
-    return <h1>👤 Профиль</h1>;
+    return (
+      <ProfileInfo/>
+    );
   }

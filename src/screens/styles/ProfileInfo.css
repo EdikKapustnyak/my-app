@@ -1,0 +1,105 @@
+.auth-container {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background: #f3f4f6;
+  }
+  
+  .login-btn, .register-btn {
+    width: 220px;
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  }
+  
+  .login-btn {
+    background: linear-gradient(90deg, #1D5588 0%, #3B73A6 100%);
+    color: white;
+  }
+  
+  .register-btn {
+    background: white;
+    border: 1px solid #1D5588;
+    color: #1D5588;
+  }
+  
+  .profile-container {
+    min-height: 100vh;
+    background: #f9f9f9;
+    padding: 16px;
+  }
+  
+  .profile-header {
+    background: linear-gradient(90deg, #1D5588 0%, #3B73A6 100%);
+    padding: 16px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+  }
+  
+  .profile-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .avatar-placeholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .info-card {
+    width: 100%;
+    max-width: 360px;
+    background: white;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+  }
+  
+  .info-btn {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1D5588;
+    background: none;
+    border: none;
+    padding: 8px 0;
+    cursor: pointer;
+  }
+  
+  .info-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 8px 0 0 0;
+  }
+  
+  .info-card li {
+    padding: 4px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
